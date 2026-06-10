@@ -23,12 +23,14 @@ const nombreViejo = document.querySelector("h3")
 const correoViejo = document.querySelector("h4")
 const paisViejo = document.querySelector("p")
 
-cajita.appendChild(boton);
+
 
 cajita.appendChild(imagen);
 if(imagenVieja){
     imagenVieja.remove()
 }
+
+
 cajita.appendChild(nombre);
 if(nombreViejo){
     nombreViejo.remove()
@@ -42,6 +44,7 @@ if(paisViejo){
     paisViejo.remove()
 }
 
+cajita.appendChild(boton);
 
 }
 user();
